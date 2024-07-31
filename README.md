@@ -20,7 +20,7 @@ Answer: [Task 3 Answer](task_3.md)
 
 ## Task 4
 
-What are the differences between “arrow” and “traditional” functions in javascript?
+What are the differences between “arrow" and “traditional" functions in javascript?
 
 Answer: [Task 4 Answer](task_4.md)
 
@@ -59,13 +59,13 @@ class Book(models.Model):
 
 
 ```python
->>> leo_tolstoy = Author.objects.create(name=”Leo Tolstoy”)
->>> alexandre_dumas = Author.objects.create(name=”Alexandre Dumas”)
->>> Book.objects.create(title=”War and Peace”, author=leo_tolstoy)
->>> Book.objects.create(title=”Anna Karenina”, author=leo_tolstoy)
->>> Book.objects.create(title=”Resurrection”, author=leo_tolstoy)
->>> Book.objects.create(title=”The Three Musketeer”, author=alexandre_dumas)
->>> Book.objects.create(title=”The Count of Monte Cristo”, author=alexandre_dumas)
+>>> leo_tolstoy = Author.objects.create(name="Leo Tolstoy")
+>>> alexandre_dumas = Author.objects.create(name="Alexandre Dumas")
+>>> Book.objects.create(title="War and Peace", author=leo_tolstoy)
+>>> Book.objects.create(title="Anna Karenina", author=leo_tolstoy)
+>>> Book.objects.create(title="Resurrection", author=leo_tolstoy)
+>>> Book.objects.create(title="The Three Musketeer", author=alexandre_dumas)
+>>> Book.objects.create(title="The Count of Monte Cristo", author=alexandre_dumas)
 ```
 
 Assume we have ~100 books and ~25 authors in our database.
@@ -75,18 +75,18 @@ Try to write efficient queries, keep in mind how many requests the ORM can make 
 
 Using Django ORM, write a function that will print the book title and the author name (who wrote it) for all the books we have in the database. Like this:
 
-“War and Peace”. Leo Tolstoy
-“Anna Karenina”. Leo Tolstoy
-“Resurrection”. Leo Tolstoy
-“The Three Musketeers”. Alexandre Dumas
-“The Count of Monte Cristo”. Alexandre Dumas
+“War and Peace". Leo Tolstoy
+“Anna Karenina". Leo Tolstoy
+“Resurrection". Leo Tolstoy
+“The Three Musketeers". Alexandre Dumas
+“The Count of Monte Cristo". Alexandre Dumas
 
 ### 6.2
 
 Write another function that will print the author’s name and all the books he wrote. For all the authors we have in the database. Like this:
 
-Leo Tolstoy: “War and Peace”, “Anna Karenina”, “Resurrection”
-Alexandre Dumas: “The Three Musketeers”, “The Count of Monte Cristo”
+Leo Tolstoy: “War and Peace", “Anna Karenina", “Resurrection"
+Alexandre Dumas: “The Three Musketeers", “The Count of Monte Cristo"
 
 ### 6.3
 
