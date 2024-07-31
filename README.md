@@ -8,8 +8,7 @@ Answer: [Task 1 Answer](task_1.md)
 
 ## Task 2
 
-Write a decorator in python that will count how many times the decorated function was called. It should print
-the number every time the decorated function is executed. Each function should be counted separately.
+Write a decorator in python that will count how many times the decorated function was called. It should print the number every time the decorated function is executed. Each function should be counted separately.
 
 Answer: [Task 2 Answer](task_2.md)
 
