@@ -4,18 +4,26 @@
 
 Describe in your own words what is GIL in python, and the pros and cons of it.
 
+Answer: [Task 1 Answer](task_1.md)
+
 ## Task 2
 
 Write a decorator in python that will count how many times the decorated function was called. It should print
 the number every time the decorated function is executed. Each function should be counted separately.
 
+Answer: [Task 2 Answer](task_2.md)
+
 ## Task 3
 
 If you see that a SQL SELECT query is slow - what would you do to improve it?
 
+Answer: [Task 3 Answer](task_3.md)
+
 ## Task 4
 
 What are the differences between “arrow” and “traditional” functions in javascript?
+
+Answer: [Task 4 Answer](task_4.md)
 
 ## Task 5
 
@@ -30,6 +38,8 @@ ________________
 ________________
 |Click Count: 2|
 ----------------
+
+Answer: [Task 5 Answer](./task_5/README.md)
 
 ## Task 6
 
@@ -85,3 +95,5 @@ Implement the third function, it should print the author’s name and the number
 
 Leo Tolstoy: 3
 Alexandre Dumas: 2
+
+Answer: [Task 6 Answer](./task_6/README.md)
